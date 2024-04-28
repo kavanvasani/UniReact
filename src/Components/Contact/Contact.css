@@ -1,0 +1,55 @@
+.contact{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-call{
+    flex-basis: 48%;
+    color: black;
+}
+
+.contact-call h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-call h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.contact-call p{
+    max-width: 450px;
+    line-height: 1.3;
+}
+
+.contact-call ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-call ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.contact-call form input, .contact-call form textarea{
+    display: block;
+    width: 100%;
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px auto;
+    resize: none;
+    border-radius: 10px;
+    border: 0;
+}
+
+.contact-call span{
+    display: block;
+    margin: 20px 0;
+}
