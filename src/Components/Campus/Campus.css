@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding-right: 80px;
 }
 
 .gallery img{
@@ -21,6 +20,8 @@
 @media (max-width: 800px){
     .gallery{
         flex-wrap: wrap;
+        padding-right: 60px;
+
     }
 
     .gallery img{
