@@ -53,3 +53,15 @@
     display: block;
     margin: 20px 0;
 }
+
+/* media */
+
+@media (max-width: 800px) {
+    .contact{
+        display: block;
+    }
+
+    .contact-call{
+        padding: 20px;
+    }
+}
